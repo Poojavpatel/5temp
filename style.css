@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: sans-serif;
+	text-align: center;
+}
+*{
+	box-sizing: border-box;       /* width incluuding margin padding */
+}
+a{
+	text-decoration: none;           /* remove blue underline */
+}
+ul{
+	list-style: none;                 /* remove dots of li */
+	margin: 0;
+	padding: 0;
+	text-align: initial;               /* to align footer links */
+}
+.nav li{
+	display: inline-block;            /* to allign nav items horizontally */
+}
+img{
+	max-width: 100%;                   /* making images responsive */
+	height: auto;
+}
